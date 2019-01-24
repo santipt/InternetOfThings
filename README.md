@@ -1,2 +1,2 @@
-# ProyectoIoTGrupo1GTI2
-Aplicación y códigos para microcontroladores desarrollados por el grupo 1 de proyecto IoT de segundo curso de Tecnologías Interactivas del curso 2018/2019
+# Internet of things
+Aplicación y conjunto de sensores desarrollados en el 2018/2019
