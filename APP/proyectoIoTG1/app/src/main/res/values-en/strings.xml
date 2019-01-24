@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">proyectoIoTG1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="manolo">Manolo</string>
+    <string name="manolo_gmail_com">manolo@gmail.com</string>
+    <string name="inicio">Home</string>
+    <string name="bascula">Scale</string>
+    <string name="este_programa_ha_sido_desarrollado_como_ejemplo_en_el_curso_de_android_para_demostrar_c_mo_se_pueden_lanzar_nuevas_actividades_desde_la_actividad_principal">This program has been developed as an example in the course of Android to demonstrate how new activities can be launched from the main activity.</string>
+    <string name="casaNav">My house</string>
+    <string name="configuraci_n">Configuration</string>
+    <string name="cerrar_sesion">Logout</string>
+    <string name="communicate">Communicate</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="red_de_sensores">SENSOR NETWORK</string>
+    <string name="usuarios">Users</string>
+    <string name="otro">Other</string>
+    <string name="usuario">USER</string>
+    <string name="femenino">Female</string>
+    <string name="maculino">Male</string>
+    <string name="peso">WEIGHT</string>
+    <string name="asd">EVERYTHING</string>
+    <string name="pesarme">Weigh myself</string>
+    <string name="introduzca_el_nombre_de_su_casa_ylos_datos_requeridos">Enter the name of your house and the required information</string>
+    <string name="nivel_de_ejercicio1">Exercise level</string>
+    <string name="enviar">Send</string>
+    <string name="protecci_n_de_datos_todos_sus_datos_son_de_acceso_privado_y_estan_bajo_la_regulaci_n_vigente">Data Protection. All your data are private access and are under current regulation</string>
+    <string name="inicio_casa">HOME</string>
+    <string name="temp">Temp</string>
+    <string name="hum">Hum</string>
+    <string name="personas">People</string>
+    <string name="luces">Lights</string>
+    <string name="aplicaci_n_desarrollada_por_el_grupo_1_de_segundo_de_tecnologias_interactivas_para_ayudar_a_toda_persona_con_necesidades">Application developed by the Group 1 of the second of Interactive Technologies to help everyone with needs.</string>
+    <string name="puerta_principal">Front door</string>
+    <string name="medicamentos">Medicines</string>
+    <string name="pasa_el_medicamento_para_saber_si_est_en_su_lista">Pass the medication to see if it is on your list</string>
+    <string name="temperatura">Temperature</string>
+    <string name="comedor">Living Room</string>
+    <string name="compartir">Share</string>
+    <string name="perfilNav">Profile</string>
+    <string name="cerrar_sesi_n">Logout</string>
+    <string name="boton_compartir">Share</string>
+    <string name="altura">Height:</string>
+    <string name="nivel_de_ejercicio2">Exercise Level</string>
+    <string name="guardar">Save</string>
+    <string name="peso_bascula">Weight: </string>
+    <string name="cerrada">Closed</string>
+    <string name="personasEnLaCasa">There is 1 person in the house</string>
+    <string name="medicamentosTexto">Pass the medication to see if it is on your list</string>
+    <string name="tusGraficas">Your graphics</string>
+    <string name="historial">Record</string>
+    <string name="grasaCorporal">Body fat</string>
+    <string name="masaCorporal">Body mass</string>
+    <string name="agua">Water</string>
+    <string name="diasMes">Days of the month</string>
+    <string name="pesoGraF">Weight</string>
+    <string name="seguridadPrivacidad">Security and privacy</string>
+    <string name="descripHuella">You must have registered at least one fingerprint on your device</string>
+    <string name="titHuella">Fingerprint identification</string>
+    <string name="selectMed">Selection of measures</string>
+    <string name="titMas">Select units of mass</string>
+    <string name="titLong">Select units of length</string>
+    <string name="titFecha">Select date format</string>
+    <string name="titFormTemp">Select temperature format</string>
+    <string name="sensorCaida">Fall sensor</string>
+    <string name="titNumEmerg">Emergency number:</string>
+    <string name="descNumEmerg">Number to be called when you fall. Leave it blank to not call anyone, but we recommend putting an emergency number.</string>
+    <string name="sensibilidad">Sensitivity:</string>
+    <string name="descSensi">The default value is 40, the higher the value, the lower the sensitivity. Arrange it as you prefer.</string>
+
+
+
+
+
+
+</resources>

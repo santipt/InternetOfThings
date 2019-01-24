@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="masa">
+        <item>Kilogramos(Kg)</item>
+        <item>Stones(St)</item>
+        <item>Libra(Lb)</item>
+    </string-array>
+    <string-array name="masaIndice">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="longitud">
+        <item>centimetros(cm)</item>
+        <item>Pie(feet)</item>
+        <item>Pulgadas(inch)</item>
+    </string-array>
+    <string-array name="longitudIndice">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="fecha">
+        <item>DD/MM/YYYY</item>
+        <item>MM/DD/YYYY</item>
+        <item>YYYY/MM/DD</item>
+    </string-array>
+    <string-array name="fechaIndice">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="temperatura">
+        <item>Celsius(ºC)</item>
+        <item>Fahrenheit(ºF)</item>
+        <item>Kelvin(ºK)</item>
+    </string-array>
+    <string-array name="temperaturaIndice">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

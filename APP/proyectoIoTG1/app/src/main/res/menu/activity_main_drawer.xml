@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+        android:icon="@drawable/home_icon2"
+
+            android:title="@string/inicio" />
+        <!--android:icon="@drawable/home_icon2"-->
+        <!--android:icon="@drawable/ic_menu_slideshow"-->
+        <item
+            android:id="@+id/nav_bascula"
+            android:icon="@drawable/bascula"
+            android:title="@string/bascula" />
+        <!--android:icon="@drawable/bascula"-->
+        <!--android:icon="@drawable/ic_menu_camera"-->
+
+        <item
+            android:id="@+id/nav_casa"
+            android:icon="@drawable/phone_home"
+            android:title="@string/casaNav" />
+        <!--android:icon="@drawable/phone_home"-->
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+
+        <item
+            android:id="@+id/nav_preferencias"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/configuraci_n" />
+
+        <item
+            android:id="@+id/nav_compartir"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/compartir" />
+        <!--android:icon="@drawable/settings_power"-->
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_user"
+                android:title="@string/perfilNav" />
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/cerrar_sesion"
+                android:title="@string/cerrar_sesi_n" />
+        </menu>
+    </item>
+
+</menu>

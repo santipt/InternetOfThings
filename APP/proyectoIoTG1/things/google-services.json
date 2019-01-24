@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "612210103283",
+    "firebase_url": "https://proyecto-iot-g1-2018.firebaseio.com",
+    "project_id": "proyecto-iot-g1-2018",
+    "storage_bucket": "proyecto-iot-g1-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612210103283:android:06eb38f7c186c652",
+        "android_client_info": {
+          "package_name": "com.GTI.Grupo1.IoT"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612210103283-4gff7qm7hg9h4tbnb8t85hoik31l4cl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.GTI.Grupo1.IoT",
+            "certificate_hash": "a3330aca991fe889094fc417d9d6c25321a1f447"
+          }
+        },
+        {
+          "client_id": "612210103283-23mb7vsnjcos74b1bhbmrrg19dbk85q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7IlSqARHdwlLCcX_vJz24myoc-Q2rvXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612210103283-23mb7vsnjcos74b1bhbmrrg19dbk85q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612210103283:android:5c8b1ed1a6df14a7",
+        "android_client_info": {
+          "package_name": "com.proyectoiot.grupo1gti.rpi_uart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612210103283-23mb7vsnjcos74b1bhbmrrg19dbk85q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7IlSqARHdwlLCcX_vJz24myoc-Q2rvXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

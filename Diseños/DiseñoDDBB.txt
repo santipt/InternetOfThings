@@ -1,0 +1,55 @@
+Usuarios
+	id.Usuario
+		-Nombre
+		-correo
+		-foto
+		-sub preferencias (Se reemplazan los valores)
+			-notificaciones (bool)
+			-medidas
+				-masa (int)
+				-longitud (int)
+				-fecha (date)
+		-sub sensores (Disponer solo los ultimos 50 valores)
+			Prt.Princ
+				-IdPorFecha
+					-Estado
+					-Fecha
+					-Hora
+				-IdPorFecha
+					-Estado
+					-Fecha
+					-Hora
+				-IdPorFecha
+					-Estado
+					-Fecha
+					-Hora
+			Gas	
+				-Estado
+				-Hora
+			otros
+				-Estado
+				-Hora
+		-sub bascula (Disponer solo los utlimos x valores)
+		
+		Opcion A 
+			id.medida	
+				- Fecha
+				- Hora
+				- Peso
+				- Altura
+			id.medida
+				- Fecha
+				- Hora
+				- Peso
+				- Altura
+			id.medida
+				- Fecha
+				- Hora
+				- Peso
+				- Altura
+				
+		Opcion B
+			Fecha [x]
+			Horas [x]
+			Peso[x]
+			Altura[x]

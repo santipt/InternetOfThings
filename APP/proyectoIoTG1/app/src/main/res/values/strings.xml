@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">proyectoIoTG1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="manolo">Manolo</string>
+    <string name="manolo_gmail_com">manolo@gmail.com</string>
+    <string name="inicio">Inicio</string>
+    <string name="bascula">Báscula</string>
+    <string name="este_programa_ha_sido_desarrollado_como_ejemplo_en_el_curso_de_android_para_demostrar_c_mo_se_pueden_lanzar_nuevas_actividades_desde_la_actividad_principal">Este programa ha sido desarrollado como ejemplo en el curso de Android para demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.</string>
+    <string name="casaNav">Casa</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="communicate">Communicate</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="red_de_sensores">RED DE SENSORES</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="otro">Otro</string>
+    <string name="usuario">USUARIO</string>
+    <string name="femenino">Femenino</string>
+    <string name="maculino">Maculino</string>
+    <string name="peso">PESO</string>
+    <string name="asd">TODO</string>
+    <string name="pesarme">Pesarme</string>
+    <string name="introduzca_el_nombre_de_su_casa_ylos_datos_requeridos">Introduzca el nombre de su casa ylos datos requeridos</string>
+    <string name="nivel_de_ejercicio1">Nivel de ejercicio</string>
+    <string name="enviar">Enviar</string>
+    <string name="protecci_n_de_datos_todos_sus_datos_son_de_acceso_privado_y_estan_bajo_la_regulaci_n_vigente">Protección de Datos. Todos sus datos son de acceso privado y estan bajo la regulación vigente</string>
+    <string name="inicio_casa">CASA</string>
+    <string name="temp">Temp</string>
+    <string name="hum">Hum</string>
+    <string name="luces">Luces</string>
+    <string name="aplicaci_n_desarrollada_por_el_grupo_1_de_segundo_de_tecnologias_interactivas_para_ayudar_a_toda_persona_con_necesidades">Aplicación desarrollada por el Grupo 1 de segundo de Tecnologias Interactivas para ayudar a toda persona con necesidades</string>
+    <string name="puerta_principal">Puerta principal</string>
+    <string name="medicamentos">Medicamentos</string>
+    <string name="pasa_el_medicamento_para_saber_si_est_en_su_lista">Pasa el medicamento para saber si está en su lista</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="personas">Personas</string>
+    <string name="comedor">Comedor</string>
+    <string name="compartir">Compartir</string>
+    <string name="perfilNav">Perfil</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <string name="boton_compartir">Compartir</string>
+    <string name="altura">Altura:</string>
+    <string name="nivel_de_ejercicio2">Nivel de ejercicio</string>
+    <string name="guardar">Guardar</string>
+    <string name="peso_bascula">Peso: </string>
+    <string name="cerrada">Cerrada </string>
+    <string name="personasEnLaCasa">Hay 1 persona en la casa</string>
+    <string name="medicamentosTexto">"Pasa el medicamento para saber si está en su lista"</string>
+    <string name="tusGraficas">Tus gráficas </string>
+    <string name="historial">Historial </string>
+    <string name="grasaCorporal">Grasa corporal</string>
+    <string name="masaCorporal">Masa corporal</string>
+    <string name="agua">Agua</string>
+    <string name="diasMes">Dias del mes</string>
+    <string name="pesoGraF">Peso</string>
+    <string name="seguridadPrivacidad">Seguridad y privacidad</string>
+    <string name="descripHuella">Tienes que tener registrada al menos una huella en tu dispositivo</string>
+    <string name="titHuella">Identificación por huella</string>
+    <string name="selectMed">Selección de medidas</string>
+    <string name="titMas">Seleccione unidades de masa</string>
+    <string name="titLong">Seleccione unidades de longitud</string>
+    <string name="titFecha">Seleccione formato de fecha</string>
+    <string name="titFormTemp">Seleccione formato de temperatura</string>
+    <string name="sensorCaida">Sensor de caida</string>
+    <string name="titNumEmerg">Numero de emergencia:</string>
+    <string name="descNumEmerg">Numero al que se llamara cuando usted se caiga. Dejelo en blanco para no llamar a nadie, pero recomendamos poner un numero de emergencia.</string>
+    <string name="sensibilidad">Sensibilidad:</string>
+    <string name="descSensi">El valor por defecto es 40, a mayor valor menor sensibilidad. Acomodelo como más prefiera.</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

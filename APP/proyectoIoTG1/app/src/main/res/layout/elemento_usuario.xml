@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="fotografía"
+        android:src="@drawable/usuarios" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/foto"
+        android:maxLines="1"
+        android:text="Nombre de la persona"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/comentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombre"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toRightOf="@+id/foto"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Comentario de la persona" />
+</RelativeLayout>

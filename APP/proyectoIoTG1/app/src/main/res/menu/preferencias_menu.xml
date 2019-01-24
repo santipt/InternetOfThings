@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:proyectoIoTG1="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/return_setting"
+        android:icon="@drawable/ic_left_chevron"
+        android:title="Volver"
+        android:orderInCategory="10"
+        android:visible="true"
+        proyectoIoTG1:showAsAction="always" />
+</menu>

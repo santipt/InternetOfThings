@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.GTI.Grupo1.IoT">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission  android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+<!--Permisos para nearby-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nublado"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_nube"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <service android:name=".IntentServiceOperacion" />
+        <activity
+            android:name="com.GTI.Grupo1.IoT.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name="com.GTI.Grupo1.IoT.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.GTI.Grupo1.IoT.IntroductionActivity"
+            />
+        <activity
+            android:name="com.GTI.Grupo1.IoT.Foto"
+            />
+        <activity
+            android:name="com.GTI.Grupo1.IoT.AcercaDeActivity"
+            android:label="Acerca de ..."
+            android:theme="@android:style/Theme.Holo.Light.Dialog"/>
+
+        <activity
+            android:name="com.GTI.Grupo1.IoT.PreferenciasActivity"
+            android:label="Configuración"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="com.GTI.Grupo1.IoT.TemperaturaActivity"
+            android:label="Configuracion termostato"
+            />
+
+        <activity android:name="com.GTI.Grupo1.IoT.SensoresActivity"
+            android:label="Sensores"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".FingerprintActivity"
+            android:label="title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".PesoNow"/>
+
+    </application>
+</manifest>

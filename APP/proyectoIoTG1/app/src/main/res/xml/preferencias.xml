@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+    <!--<CheckBoxPreference
+        android:key="notificaciones"
+        android:title="Recibir Notificaciones"
+        android:summary="Recibir notificaciones en la barra de estado"/> -->
+    <PreferenceCategory
+        android:key="otraCosa"
+        android:title="@string/seguridadPrivacidad">
+        <SwitchPreference
+            android:id="@+id/huell"
+            android:defaultValue="false"
+            android:key="huella"
+            android:summary="@string/descripHuella"
+            android:title="@string/titHuella" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="otraCosa"
+        android:title="@string/selectMed">
+        <ListPreference
+            android:key="masa"
+            android:title="@string/titMas"
+            android:entries="@array/masa"
+            android:entryValues="@array/masaIndice"
+            android:defaultValue="0"/>
+        <ListPreference
+            android:key="altura"
+            android:title="@string/titLong"
+            android:entries="@array/longitud"
+            android:entryValues="@array/longitudIndice"
+            android:defaultValue="0"/>
+        <ListPreference
+            android:key="fecha"
+            android:title="@string/titFecha"
+            android:entries="@array/fecha"
+            android:entryValues="@array/fechaIndice"
+            android:defaultValue="0"/>
+        <ListPreference
+            android:key="temperatura"
+            android:title="Seleccione formato de temperatura"
+            android:entries="@array/temperatura"
+            android:entryValues="@array/temperaturaIndice"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/sensorCaida">
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="phone"
+            android:key="NumeroEmergencia"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/descNumEmerg"
+            android:title="@string/titNumEmerg" />
+        <EditTextPreference
+            android:defaultValue="40"
+            android:inputType="number|phone"
+            android:key="moduloAcelerometro"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/descSensi"
+            android:title="@string/sensibilidad" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+
+
