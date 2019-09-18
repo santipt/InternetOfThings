@@ -1,2 +1,2 @@
 # Internet of things
-Aplicación y conjunto de sensores desarrollados en el 2018/2019
+Android app with a group of sensors developed with Arduino (2018/2019)
